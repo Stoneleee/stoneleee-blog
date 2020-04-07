@@ -84,6 +84,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "heroku-postbuild": "gatsby build",
     "build:gh": "gatsby build --prefix-paths",
     "dev": "gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
