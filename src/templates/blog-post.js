@@ -6,7 +6,7 @@ import Bio from 'components/Bio';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
 import TagList from 'components/TagList';
-import RelativePosts from 'components/RelativePosts';
+// import RelativePosts from 'components/RelativePosts';
 import Disqus from 'components/Disqus';
 import TranslationsLink from 'components/TranslationsLink';
 
@@ -55,7 +55,7 @@ function BlogPostTemplate({ data, pageContext, location }) {
 
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-      <RelativePosts postNodes={[previousInSameTag, nextInSameTag]} lang={lang} />
+      {/* <RelativePosts postNodes={[previousInSameTag, nextInSameTag]} lang={lang} /> */}
 
       <hr
         style={{
